@@ -117,7 +117,9 @@
 	pre.state {
 		overflow: scroll;
 		margin: 0;
+		padding: 0;
 		max-height: 400px;
+		background: none;
 	}
 
 	form.controls {
@@ -140,7 +142,9 @@
 		--thumb-border: pink;
 
 		width: calc(100% - 4px);
+		border: none;
 		margin: 4px auto;
+		padding: 0;
 		background: transparent;
 	}
 	input[type="range"]::-moz-range-track {
