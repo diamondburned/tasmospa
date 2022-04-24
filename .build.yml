@@ -9,8 +9,7 @@ tasks:
   - build: |-
       cd tasmospa
       nix-shell shell.nix --run '
-        npm run build
         npm i
+        npm run build
       '
-  - artifact: |-
       tar -zcvf ../build.tar.gz ./build/
