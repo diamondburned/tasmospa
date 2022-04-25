@@ -1,5 +1,7 @@
+html,
 body {
 	font-family: sans-serif;
+	height: 100%;
 	margin: 0;
 	padding: 0;
 	max-width: unset;
@@ -10,5 +12,5 @@ main.centered {
 	align-items: center;
 	justify-content: center;
 	min-width: 100vw;
-	min-height: 100vh;
+	min-height: 100%;
 }
