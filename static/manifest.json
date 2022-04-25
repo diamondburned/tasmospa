@@ -1,0 +1,15 @@
+{
+  "short_name": "Tasmospa",
+  "name": "Tasmospa",
+  "description": "Tasmota Light Bulb controller application.",
+  "start_url": "/",
+  "background_color": "#222222",
+  "theme_color": "#e26f7a",
+  "icons": [
+    {
+      "src": "https://static.wikia.nocookie.net/oneshot/images/b/bc/Wiki.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ]
+}
