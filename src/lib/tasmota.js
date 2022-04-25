@@ -66,7 +66,6 @@ let cmndDebounce = throttle(
 		for (const [k, v] of Object.entries(cmnds)) {
 			q.push(`${k} ${v}; `)
 		}
-		console.log("commands:", q)
 		cmnds = {}
 		command(q.join())
 	},
