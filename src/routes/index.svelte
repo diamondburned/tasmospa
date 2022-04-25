@@ -104,7 +104,7 @@
 		min-width: 100px;
 		max-width: 300px;
 
-		height: 100vh;
+		height: 100%;
 		overflow: hidden;
 	}
 
